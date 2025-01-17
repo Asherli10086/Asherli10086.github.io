@@ -1,0 +1,69 @@
+/* 平板设备 (768px及以下) */
+@media screen and (max-width: 768px) {
+    .nav-container {
+        padding: 1rem;
+    }
+
+    .nav-links {
+        display: none; /* 在移动端将使用JavaScript控制显示 */
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-image {
+        margin: 0 auto;
+    }
+
+    .subscribe-form {
+        flex-direction: column;
+    }
+
+    .subscribe-form button {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+}
+
+/* 手机设备 (480px及以下) */
+@media screen and (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .articles-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .categories-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* 确保在较大屏幕上内容不会过宽 */
+@media screen and (min-width: 1400px) {
+    .nav-container,
+    .articles-section,
+    .categories-section,
+    .footer-content {
+        max-width: 1400px;
+    }
+} 
