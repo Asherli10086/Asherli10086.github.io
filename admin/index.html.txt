@@ -6,14 +6,6 @@
     <title>电商思维库 - 内容管理</title>
   </head>
   <body>
-    <!-- Include the script that builds the page and powers Netlify CMS -->
-    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-    <script>
-      CMS.registerBackend('github', {
-        repo: 'Asherli10086/Asherli10086.github.io',
-        branch: 'main',
-        client_id: 'Ov23li5tLRRrDe1H67Hq'
-      });
-    </script>
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   </body>
 </html>
